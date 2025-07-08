@@ -3,7 +3,7 @@ import { View, Text, TextInput, Button, StyleSheet, Image, TouchableOpacity, Pla
 import * as ImagePicker from 'expo-image-picker';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import TricksPage from './Screens/TricksPage';
+import TricksPage from './screens/TricksPage.js';
 
 export default function PetRegistrationScreen({ navigation }) {
   const [name, setName] = useState('');
